@@ -1,0 +1,5 @@
+l = float(input("Enter length of cuboid "))
+b = float(input("Enter breadth of cuboid "))
+h = float(input("Enter height of cuboid "))
+area = 2 * (l*b + l*h + b*h)
+print("Area = ",area)
